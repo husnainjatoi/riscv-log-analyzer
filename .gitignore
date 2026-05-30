@@ -1,2 +1,16 @@
+# Output files
 output/*
-!output/.gitkeep
+!output/.gitkee#
+
+# Editor Files
+*.swp
+*~
+# VS Code workspace settings
+.vscode/
+
+# Operating System Files
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+desktop.inip
