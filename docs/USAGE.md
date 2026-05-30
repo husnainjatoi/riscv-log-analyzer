@@ -15,9 +15,9 @@ The core engine can be executed manually for granular control over individual lo
 * `$1` (Required): The relative or absolute path to the RISC-V log file you wish to analyze.
 
 **Options / Flags:**
-* `--format [text/csv]`: Defines the output format. *(Note: CSV formatting is a planned future feature; defaults to text).*
+* `--format [text/csv]`: Defines the output format. *(defaults to text).*
 * `--output <path>`: Redirects the generated summary to a specific file path. If omitted, the script prints to standard output (the terminal).
-* `--verbose`: Enables verbose debugging output *(placeholder for future implementation)*.
+* `--verbose`: Enables verbose debugging output.
 * `--help`: Prints the help menu and immediately exits with code 0.
 
 **Exit Codes:**
