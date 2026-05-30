@@ -43,3 +43,19 @@ if [[ ! -f "$LOG_FILE" ]]; then
 	echo "Error: File '$LOG_FILE' does not exist."
 	exit 1
 fi
+
+
+generate_summary() {
+	local log="$1"
+
+	local total_tests=$(grep -ic "TEST START" "$log" || true)
+	local passed=$(grep -ic "TEST PASS" "$log" || true)
+	local failed=$(grep -ic "TEST FAIL" "$log" || true)
+	local skipped=$(grep -ic "TEST SKIP" "$log" || true)
+
+	local pass_rate=$(awk -v p="$passed" -v t="$total_tests" 'BEGIN { if (t>0) printf "%.1f", (p/t)*100; else print 0 }')
+        local fail_rate=$(awk -v f="$failed" -v t="$total_tests" 'BEGIN { if (t>0) printf "%.1f", (f/t)*100; else print 0 }')
+        local skip_rate=$(awk -v s="$skipped" -v t="$total_tests" 'BEGIN { if (t>0) printf "%.1f", (s/t)*100; else print 0 }')
+
+	local fail_list=$(grep -ic "TEST FAIL" "$log" | awk '{print $3} || true)
+}
