@@ -18,7 +18,7 @@ This project demonstrates core Linux text processing (`grep`, `awk`), Bash scrip
 
 1. **Clone the repository:**
    ```bash
-   git clone <your_repository_link>
+   git clone https://github.com/husnainjatoi/riscv-log-analyzer
    cd riscv-log-analyzer
    ```
 
