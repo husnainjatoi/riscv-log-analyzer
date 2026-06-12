@@ -1,5 +1,11 @@
 # RISC-V Simulation Log Analyzer
 
+[![Bash](https://img.shields.io/badge/Bash-121011?style=flat-square&logo=gnu-bash&logoColor=white)]()
+[![Make](https://img.shields.io/badge/Make-008080?style=flat-square&logo=gnu&logoColor=white)]()
+[![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)]()
+[![Status](https://img.shields.io/badge/status-active-success)]()
+[![License](https://img.shields.io/badge/license-MIT-green)]()
+
 **Author:** Husnain Jatoi  
 **Project:** MEDS Lab Module 1 Capstone  
 
