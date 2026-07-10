@@ -3,11 +3,9 @@
 [![Bash](https://img.shields.io/badge/Bash-121011?style=flat-square&logo=gnu-bash&logoColor=white)]()
 [![Make](https://img.shields.io/badge/Make-008080?style=flat-square&logo=gnu&logoColor=white)]()
 [![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)]()
-[![Status](https://img.shields.io/badge/status-active-success)]()
+[![Status](https://img.shields.io/badge/Status-Completed-success)]()
 [![License](https://img.shields.io/badge/license-MIT-green)]()
 
-**Author:** Husnain Jatoi  
-**Project:** MEDS Lab Module 1 Capstone  
 
 ## Description
 `riscv-log-analyzer` is a shell-based automation tool designed to process RISC-V simulation log files. It extracts critical execution metrics, calculates pass/fail rates, isolates failing tests, and computes execution timing statistics (minimum, maximum, and average times). 
